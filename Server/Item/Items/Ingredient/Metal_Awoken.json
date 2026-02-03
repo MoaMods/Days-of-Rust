@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Metal_Awoken.name",
+    "Description": "server.items.Metal_Awoken.Description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Metal_Slumbering",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Centrifugal"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 5
+  },
+  "Model": "Resources/Materials/Ancient_Metal.blockymodel",
+  "Texture": "Resources/Materials/Material_Textures/Awoken_Metal.png",
+  "Icon": "Icons/ItemsGenerated/Metal_Awoken.png",
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Bars"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      27,
+      0,
+      8
+    ],
+    "Translation": [
+      -6,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true
+}

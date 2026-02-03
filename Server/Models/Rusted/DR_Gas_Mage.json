@@ -1,0 +1,19 @@
+{
+  "Parent": "Skeleton",
+  "Texture": "NPC/Rusted/DR_Fullomaton/Fullomaton_Texture.png",
+  "DefaultAttachments": [
+    {
+      "Model": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes.blockymodel",
+      "Texture": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes_Blue.png"
+    },
+    {
+      "Model": "NPC/Rusted/DR_Gas_Mage/Attachments/Chest.blockymodel",
+      "Texture": "NPC/Rusted/DR_Gas_Mage/Attachments/Chest_Texture.png"
+    },
+    {
+      "Model": "NPC/Rusted/DR_Gas_Mage/Attachments/Head.blockymodel",
+      "Texture": "NPC/Rusted/DR_Gas_Mage/Attachments/Head_Texture.png"
+    }
+  ],
+  "GradientSet": "Faded_Leather"
+}

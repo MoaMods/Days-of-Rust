@@ -1,0 +1,99 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Awoken_Metal_Hands"
+  },
+  "Parent": "Armor_Iron_Hands",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Icon": "Icons/ItemsGenerated/Awoken_Metal_Hands.png",
+  "IconProperties": {
+    "Scale": 0.645,
+    "Rotation": [
+      21.94,
+      45.565,
+      22.5
+    ],
+    "Translation": [
+      0.7,
+      -2.3
+    ]
+  },
+  "Model": "Items/Armors/Awoken_Metal/Hands.blockymodel",
+  "Texture": "Items/Armors/Awoken_Metal/Hands_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Metal_Awoken",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Carbon_Fiber_Roll",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Overseer_Wiring",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Patched_Canister"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Hands"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Armor": {
+    "ArmorSlot": "Hands",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.064,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.064,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 11,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "Amount": 0.03,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 150,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Adamantite"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5
+}

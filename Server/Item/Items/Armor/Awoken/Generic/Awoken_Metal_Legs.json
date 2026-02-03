@@ -1,0 +1,103 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Awoken_Metal_Legs"
+  },
+  "Parent": "Armor_Iron_Legs",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Icon": "Icons/ItemsGenerated/Awoken_Metal_Legs.png",
+  "IconProperties": {
+    "Scale": 0.415,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -1.2,
+      -27
+    ]
+  },
+  "Model": "Items/Armors/Awoken_Metal/Legs.blockymodel",
+  "Texture": "Items/Armors/Awoken_Metal/Legs_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Metal_Awoken",
+        "Quantity": 22
+      },
+      {
+        "ItemId": "Carbon_Fiber_Roll",
+        "Quantity": 7
+      },
+      {
+        "ItemId": "Vacant_Energy_Cell",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Overseer_Wiring"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Legs"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Pants",
+      "Shoes"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.112,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.112,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 19,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "Amount": 0.04,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 150,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Adamantite"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5
+}

@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Carbon_Fiber_Roll.name",
+    "Description": ""
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Materials/Carbon_Fiber_Roll.blockymodel",
+  "Texture": "Resources/Materials/Material_Textures/Carbon_Fiber_Roll_Texture.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      341,
+      148,
+      8
+    ],
+    "Translation": [
+      1,
+      -4
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Carbon_Fiber_Roll.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "DropOnDeath": true,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Carbon_Fiber_Scrap"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Centrifugal"
+      }
+    ],
+    "TimeSeconds": 5
+  },
+  "ResourceTypes": [
+    {
+      "Id": "DR_Cloth"
+    }
+  ]
+}

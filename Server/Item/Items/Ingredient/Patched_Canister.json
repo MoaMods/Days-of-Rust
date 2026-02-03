@@ -1,0 +1,40 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Patched_Canister.name",
+    "Description": "server.items.Patched_Canister.Description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Icon": "Icons/ItemsGenerated/Patched_Canister.png",
+  "Model": "Resources/Materials/Patched_Canister.blockymodel",
+  "Texture": "Resources/Materials/Material_Textures/Patched_Canister.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      20,
+      134,
+      13
+    ],
+    "Translation": [
+      -7,
+      -19
+    ]
+  },
+  "Scale": 1.5,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Hide"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "DropOnDeath": true
+}

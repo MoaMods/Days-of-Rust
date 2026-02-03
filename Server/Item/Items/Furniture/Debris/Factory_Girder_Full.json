@@ -1,0 +1,84 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.FactoryGirderFull.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Factory_Girder_Full.png",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Set": "DR_Factory",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "Quantity": 1,
+        "ItemId": "Metal_Slumbering"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Beam"
+        ]
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Structures/Support_Girder_Full.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Support_Girder_Full_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Beam",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "VariantRotation": "Pipe",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#737055",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Stone"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Model": "Blocks/Structures/Support_Girder_Full.blockymodel",
+  "Texture": "Blocks/Structures/Support_Girder_Full_Texture.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

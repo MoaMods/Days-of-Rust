@@ -1,0 +1,40 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Vacant_Energy_Cell.name"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Materials/Vacant_Energy_Cell.blockymodel",
+  "Texture": "Resources/Materials/Material_Textures/Vacant_Energy_Cell.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      10,
+      49,
+      3
+    ],
+    "Translation": [
+      -0.3,
+      -13
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Vacant_Energy_Cell.png",
+  "Scale": 1.2,
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Crystal"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true
+}

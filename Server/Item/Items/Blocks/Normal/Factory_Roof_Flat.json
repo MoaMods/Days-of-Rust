@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.FactoryRoofFlat.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Factory_Roof_Flat.png",
+  "Set": "DR_Factory",
+  "BlockType": {
+    "CustomModel": "Blocks/Structures/Roofs/Flat.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Roof_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Stairs_Flat",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "ParticleColor": "#a2865d",
+    "BlockSoundSetId": "Wood"
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ]
+  },
+  "Parent": "Wood_Softwood_Roof_Flat",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "Quantity": 1,
+        "ItemId": "Metal_Slumbering"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Roof"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

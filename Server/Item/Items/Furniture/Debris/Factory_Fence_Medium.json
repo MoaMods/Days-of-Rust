@@ -1,0 +1,87 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.FactoryFenceM.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Set": "DR_Factory",
+  "IconProperties": {
+    "Scale": 0.36,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      14.4,
+      -17
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Rock_Sandstone",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Wardrobe"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Stone",
+    "CustomModel": "Blocks/Structures/Factory_Fence_Medium.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Fence_L.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": false
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "Coffin",
+    "Material": "Solid",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "ParticleColor": "#757575",
+    "Interactions": {
+      "Primary": "Break_Container"
+    },
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": true,
+    "FlipType": "Symmetric"
+  },
+  "Icon": "Icons/ItemsGenerated/Factory_Fence_Medium.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "Scale": 0.8,
+  "ItemSoundSetId": "ISS_Items_Metal"
+}

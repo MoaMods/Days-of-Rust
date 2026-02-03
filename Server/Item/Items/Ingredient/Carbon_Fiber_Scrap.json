@@ -1,0 +1,41 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Carbon_Fiber_Scrap.name"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Materials/Carbon_Fiber_Scrap.blockymodel",
+  "Texture": "Resources/Materials/Material_Textures/Carbon_Fiber_Scrap_Texture.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      28,
+      341,
+      1
+    ],
+    "Translation": [
+      0,
+      -5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Carbon_Fiber_Scrap.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "DropOnDeath": true,
+  "ResourceTypes": [
+    {
+      "Id": "DR_Cloth"
+    }
+  ]
+}

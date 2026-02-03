@@ -1,0 +1,35 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Metal_Slumbering.name",
+    "Description": "server.items.Metal_Slumbering.Description"
+  },
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "Model": "Resources/Materials/Ancient_Metal.blockymodel",
+  "Texture": "Resources/Materials/Material_Textures/Slumbering_Metal.png",
+  "Icon": "Icons/ItemsGenerated/Metal_Slumbering.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      27,
+      0,
+      8
+    ],
+    "Translation": [
+      -6,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true
+}

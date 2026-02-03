@@ -1,0 +1,102 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Awoken_Metal_Chest"
+  },
+  "Parent": "Armor_Iron_Chest",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Icon": "Icons/ItemsGenerated/Awoken_Metal_Chest.png",
+  "IconProperties": {
+    "Scale": 0.335,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0.3,
+      0.3
+    ]
+  },
+  "Model": "Items/Armors/Awoken_Metal/Chest.blockymodel",
+  "Texture": "Items/Armors/Awoken_Metal/Chest_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Metal_Awoken",
+        "Quantity": 28
+      },
+      {
+        "ItemId": "Carbon_Fiber_Roll",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Vacant_Energy_Cell",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Overseer_Wiring"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Chest"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Overtop"
+    ],
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 24,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.144,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.144,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "Amount": 0.06,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 150,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Adamantite"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5
+}

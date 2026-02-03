@@ -1,0 +1,68 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Awoken_Shield.name"
+  },
+  "Model": "Items/Weapons/Awoken/Shield.blockymodel",
+  "Texture": "Items/Weapons/Awoken/Shield_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Shield_Awoken.png",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Metal_Awoken",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Carbon_Fiber_Roll",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Vacant_Energy_Cell",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Rust_Essence",
+        "Quantity": 15
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Shield"
+        ],
+        "RequiredTierLevel": 3,
+        "Id": "Armor_Bench"
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Shield_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 21.78,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    }
+  },
+  "Parent": "Weapon_Shield_Adamantite",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      321,
+      270,
+      0
+    ],
+    "Translation": [
+      -21,
+      -30
+    ]
+  }
+}

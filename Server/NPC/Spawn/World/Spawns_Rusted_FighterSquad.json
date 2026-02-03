@@ -1,0 +1,16 @@
+{
+  "Environments": [
+    "Env_Zone1_Shores"
+  ],
+  "NPCs": [
+    {
+      "Weight": 8,
+      "SpawnBlockSet": "Sand",
+      "Id": "DR_Fullomaton"
+    },
+    {
+      "Id": "DR_Cell_Knight",
+      "SpawnFluidTag": "3"
+    }
+  ]
+}

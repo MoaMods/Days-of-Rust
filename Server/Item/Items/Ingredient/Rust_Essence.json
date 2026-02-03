@@ -1,0 +1,46 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rust_Essence.name",
+    "Description": "server.items.Rust_Essence.Description"
+  },
+  "Icon": "Icons/ItemsGenerated/Rust_Essence.png",
+  "Quality": "Uncommon",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Materials/Rust_Essence.blockymodel",
+  "Texture": "Resources/Materials/Material_Textures/Rust_Essence_Texture.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -13
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Scale": 1,
+  "Light": {
+    "Color": "#310",
+    "Radius": 1
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true,
+  "ResourceTypes": [
+    {
+      "Id": "DR_Fuel"
+    }
+  ]
+}

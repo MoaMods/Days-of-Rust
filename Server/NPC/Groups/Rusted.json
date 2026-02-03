@@ -1,0 +1,9 @@
+{
+  "IncludeGroups": [
+    "DR_Factory_Overseer",
+    "DR_Gas_Mage",
+    "DR_Halfomaton",
+    "DR_Cell_Knight",
+    "DR_Fullomaton"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Group": "MoaMods",
+  "Name": "Days of Rust",
+  "Version": "1.0",
+  "Description": "Explore the past. Uncover its secrets. Wield its power.",
+  "Authors": [
+    {
+      "Name": "Moa",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "website",
+  "ServerVersion": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

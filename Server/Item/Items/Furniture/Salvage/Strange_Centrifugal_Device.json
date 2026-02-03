@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Strange_Centrifugal_Device.name",
+    "Description": "server.items.Strange_Centrifrugal_Device.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Strange_Centrifugal_Device.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 6
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 6
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Bench_Furnace",
+        "Metadata": {
+          "BlockState": {
+            "Type": "processingBench",
+            "FuelContainer": {
+              "Capacity": 2
+            }
+          }
+        }
+      }
+    ],
+    "TimeSeconds": 3
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Centrifugal_Machine_Broken.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Centrifugal_Machine_Texture_Broken.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "HitboxType": "Bench_Furnace",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Metal"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.365,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      12,
+      -17.4
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 1,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

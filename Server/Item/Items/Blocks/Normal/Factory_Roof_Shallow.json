@@ -1,0 +1,184 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.FactoryRoofShallow.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "DR_Factory",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Structures/Roofs/Slope_Shallow.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Roof_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Roof",
+    "HitboxType": "Stairs_Shallow",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Rock_Stone_Brick_Roof_Shallow"
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockParticleSetId": "Stone",
+    "Supporting": {
+      "Down": [
+        {}
+      ],
+      "North": [
+        {}
+      ]
+    },
+    "ParticleColor": "#737055",
+    "BlockSoundSetId": "Stone",
+    "State": {
+      "Definitions": {
+        "Corner_Right": {
+          "CustomModel": "Blocks/Structures/Roofs/Corner_Rock_Shallow_Right.blockymodel",
+          "HitboxType": "Roof_Corner_Shallow_Right",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ]
+          },
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "Rocks",
+              "ItemId": "Rock_Stone_Brick_Roof_Shallow",
+              "Quantity": 2
+            }
+          }
+        },
+        "Corner_Left": {
+          "CustomModel": "Blocks/Structures/Roofs/Corner_Rock_Shallow_Left.blockymodel",
+          "HitboxType": "Roof_Corner_Shallow_Left",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ]
+          },
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "Rocks",
+              "ItemId": "Rock_Stone_Brick_Roof_Shallow",
+              "Quantity": 2
+            }
+          }
+        },
+        "Inverted_Corner_Right": {
+          "CustomModel": "Blocks/Structures/Roofs/Corner_Rock_Shallow_Inverted_Right.blockymodel",
+          "HitboxType": "Roof_Corner_Shallow_Inverted_Right",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ]
+          },
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "Rocks",
+              "ItemId": "Rock_Stone_Brick_Roof_Shallow",
+              "Quantity": 2
+            }
+          }
+        },
+        "Inverted_Corner_Left": {
+          "CustomModel": "Blocks/Structures/Roofs/Corner_Rock_Shallow_Inverted_Left.blockymodel",
+          "HitboxType": "Roof_Corner_Shallow_Inverted_Left",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ]
+          },
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "Rocks",
+              "ItemId": "Rock_Stone_Brick_Roof_Shallow",
+              "Quantity": 2
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "Roof",
+      "Width": 2,
+      "Regular": {
+        "Straight": {
+          "State": "default"
+        },
+        "Corner_Right": {
+          "State": "Corner_Right"
+        },
+        "Corner_Left": {
+          "State": "Corner_Left"
+        },
+        "Inverted_Corner_Right": {
+          "State": "Inverted_Corner_Right"
+        },
+        "Inverted_Corner_Left": {
+          "State": "Inverted_Corner_Left"
+        }
+      },
+      "MaterialName": "Roof_Shallow"
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11.1,
+      -22.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Factory_Roof_Shallow.png",
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Stone"
+    ],
+    "SubType": [
+      "Roof"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "Quantity": 1,
+        "ItemId": "Metal_Slumbering"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Roof"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  }
+}

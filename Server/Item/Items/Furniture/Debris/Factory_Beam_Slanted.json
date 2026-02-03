@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.FactoryBeamSlanted.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Deco_Iron_Chains.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "DR_Factory",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Metal_Slumbering",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "StructuralCrafting",
+        "Id": "Builders"
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Structures/Support_Slanted.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Support_Slanted_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Chain_Diagonal",
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#4b4b4b",
+    "BlockSoundSetId": "Metal"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ],
+    "Family": [
+      "Iron"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Model": "Blocks/Structures/Support_Slanted.blockymodel",
+  "Texture": "Blocks/Structures/Support_Slanted_Texture.png"
+}

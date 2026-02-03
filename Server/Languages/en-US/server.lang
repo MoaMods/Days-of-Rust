@@ -1,0 +1,101 @@
+# === Materials ===
+
+items.Overseer_Wiring.name = Overseer Wiring
+items.Patched_Canister.name = Patched Canister
+items.Rust_Essence.name = Rust Essence
+items.Metal_Slumbering.name = Slumbering Metal
+items.Metal_Awoken.name = Awoken Metal
+items.Carbon_Fiber_Roll.name = Bolt of Carbon Fiber
+items.Carbon_Fiber_Scrap.name = Scraps of Carbon Fiber
+items.Vacant_Energy_Cell.name = Vacant Energy Cell
+
+
+# === Blocks ===
+items.Strange_Centrifugal_Device.name = Strange Centrifugal Device
+items.Repaired_Centrifrugal_Device.name = Repaired Centrifugal Device
+items.Corrugated_SlabH.name = Corrugated Metal Slab
+items.Corrugated_SlabV.name = Corrugated Metal Slab
+items.Corrugated_MetalH.name = Corrugated Metal
+items.Corrugated_MetalV.name = Corrugated Metal
+items.FactoryBelt.name = Factory Belt
+items.MetalPillarBase.name = Metal Pillar Base
+items.MetalPillarMiddle.name = Metal Pillar Middle
+items.MetalBlock.name = Metal Plate Block
+items.FactoryBricks.name = Factory Bricks
+items.FactoryRoofFlat.name = Factory Roof Flat
+items.FactoryRoofHollow.name = Factory Roof Hollow
+items.FactoryRoofShallow.name = Factory Roof Shallow
+items.FactoryRoofSteep.name = Factory Roof Steep
+items.FactoryRoof.name = Factory Roof
+items.RustedPillarBase.name = Rusted Metal Pillar Base
+items.RustedPillarMiddle.name = Rusted Metal Pillar Middle
+items.RustedPlateMetal.name = Rusted Metal Plate Block
+items.FactoryBeamSlanted.name = Factory Beam Slanted
+items.FactoryFenceL.name = Large Factory Fence
+items.FactoryFenceM.name = Medium Factory Fence
+items.FactoryGirderFull.name = Factory Girder
+
+
+# === Furniture ===
+
+
+
+# === Equipment ===
+items.Slumbering_Metal_Legs.name = Slumbering Metal Legs
+items.Slumbering_Metal_Chest.name = Slumbering Metal Chest
+items.Slumbering_Metal_Hands.name = Slumbering Metal Hands
+items.Slumbering_Metal_Head.name = Slumbering Metal Helm
+items.Armor_Cell_Knight_Chest.name = Cell Knight Plate
+items.Armor_Cell_Knight_Hands.name = Cell Knight Hands
+items.Armor_Cell_Knight_Head.name = Cell Knight Helm
+items.Armor_Cell_Knight_Legs.name = Cell Knight Legs
+items.GasMage_Chest.name = Gas Mage Robe
+items.GasMage_Hands.name = Gas Mage Hands
+items.GasMage_Head.name = Gas Mage Hood
+items.GasMage_Legs.name = Gas Mage Legs
+items.RotRogue_Chest.name = Rot Rogue Wrap
+items.RotRogue_Hands.name = Rot Rogue Hands
+items.RotRogue_Head.name = Rot Rogue Mask
+items.RotRogue_Legs.name = Rot Rogue Legs
+items.Awoken_Metal_Chest = Awoken Chest
+items.Awoken_Metal_Hands = Awoken Gloves
+items.Awoken_Metal_Helm = Awoken Helm
+items.Awoken_Metal_Legs = Awoken Legs
+
+items.Battleaxe_Slumbering.name = Slumbering Battleaxe
+items.Axe_Slumbering.name = Slumbering Axe
+items.Crossbow_Slumbering.name = Slumbering Crossbow
+items.Shortbow_Slumbering.name = Slumbering Shortbow
+items.Slumbering_Daggers.name = Slumbering Daggers
+items.Slumbering_Longsword.name = Slumbering Longsword
+items.Slumbering_Mace.name = Slumbering Mace
+items.Slumbering_Shield.name = Slumbering Shield
+items.Slumbering_Sword.name = Slumbering Sword
+
+items.Battleaxe_Awoken.name = Awoken Battleaxe
+items.Axe_Awoken.name = Awoken Axe
+items.Crossbow_Awoken.name = Awoken Crossbow
+items.Shortbow_Awoken.name = Awoken Shortbow
+items.Awoken_Daggers.name = Awoken Daggers
+items.Awoken_Longsword.name = Awoken Longsword
+items.Awoken_Mace.name = Awoken Mace
+items.Awoken_Shield.name = Awoken Shield
+items.Awoken_Sword.name = Awoken Sword
+
+
+
+
+# === NPCs ===
+
+
+# === Descriptions ===
+items.Repaired_Centrifrugal_Device.description = The violent centrifugal force this machine generates is more than enough to awaken even sleeping steel. -- Powered by Rust Essence
+items.Strange_Centrifrugal_Device.description = Broken. But not beyond repair. If I can fix this device, it may prove useful in my journey.
+
+items.Overseer_Wiring.Description = Odd wiring pulled from the hull of a Factory Overseer.
+items.Patched_Canister.Description = I don't think I want to breathe what this canister holds. Wait... it's not leaking, is it?
+items.Rust_Essence.Description = Essnece formed from severe rust accumulation.
+items.Metal_Slumbering.Description = Faint markings hum and pulse ever so peacefully upon the strange metal's surface, as if slumbering quietly. What power could this material hold... if it were to awaken.
+items.Metal_Awoken.Description = The metal's markings vibrate fiercely with power. You can barely hold it steady.
+
+
